@@ -1,14 +1,11 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './Screens/Home';
-import 'bootstrap/dist/css/bootstrap.min.css';
 import SignUp from './Screens/SignUp';
-import Login from './Screens/Login'
+import Login from './Screens/Login'                 
 
 
 function App() {
-
-
-
+  
   return (
     <Router>
     <div className="App">
