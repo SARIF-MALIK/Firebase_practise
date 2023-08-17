@@ -40,7 +40,7 @@ export default function SignUp() {
             </div>
             <div className= 'd-flex'>
             <Button className='mt-3 p-3' style={{ width: '100%'}} onClick={handleSubmit}>Submit</Button>
-            <Button className='mt-3 mx-2 p-2' style={{ display: 'flex', justifyContent: 'flex-end' }}>Already Registered</Button>
+            <Button className='mt-3 mx-2 p-2' style={{ display: 'flex', justifyContent: 'flex-end' }} onClick={()=>navigate('/login')}>Already Registered</Button>
             </div>
         </div>
     )
