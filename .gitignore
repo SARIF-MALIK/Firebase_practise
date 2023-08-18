@@ -24,4 +24,5 @@ yarn-error.log*
 
 # firebase                                                                                      
 /client/src/config/Firebase.js
+/client/src/config/Fireauth.js
                                                                                             

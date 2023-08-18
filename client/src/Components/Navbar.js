@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom'
 import { signOut } from "firebase/auth";
-import {auth} from '../config/Firebase'
+import {auth} from '../config/Fireauth'
 import { useNavigate } from 'react-router-dom';
 
 export default function Navbar() {
